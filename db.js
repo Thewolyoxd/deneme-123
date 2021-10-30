@@ -6,4 +6,4 @@ const macabre_guard = mongoose.Schema({
     bot: Array
 });
 
-module.exports = mongoose.model("macabre Guard", macabre_guard);
+module.exports = mongoose.model("Discord Guard", macabre_guard);
