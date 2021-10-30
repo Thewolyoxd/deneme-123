@@ -518,4 +518,4 @@ process.on("unhandledRejection", err => {
     console.error("Yakalanamayan Hata: ", err);
 });
 
-client.login("process.env.token")
+client.login(process.env.token)
